@@ -12,3 +12,4 @@ export default function TypingIndicator({members}) {
   const string = names.slice(0, -1).join(', ') + ' and ' + names.slice(-1);
   return <div className={styles.typingIndicator}>{string} are typing</div>;
 }
+
