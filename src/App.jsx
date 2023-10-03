@@ -128,7 +128,7 @@ export default function Home() {
             onSendMessage={onSendMessage}
             onChangeTypingState={onChangeTypingState}
           />
-          <a className={styles.upsell} href='https://www.scaledrone.com/blog/tutorial-build-a-reactjs-chat-app/'>React chat</a>
+          <p className={styles.upsell}>React Live chat</p>
         </div>
       </main>
     </>

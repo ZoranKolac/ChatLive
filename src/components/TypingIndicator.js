@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Home.module.css'
 
-export default function TypingIndicator({members}) {
+export default function typingIndicator({members}) {
   const names = members.map(m => m.clientData.username);
   if (names.length === 0) {
     return <div className={styles.typingIndicator}></div>;

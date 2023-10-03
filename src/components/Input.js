@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
-import TypingIndicator from './TypingIndicator';
+import TypingIndicator from 'typing-indicator';
 
 let typingIndicator = null;
 
@@ -34,10 +34,10 @@ export default function Input({onSendMessage, onChangeTypingState}) {
           onChange={e => onChange(e)}
           value={text}
           type='text'
-          placeholder='Enter your message and press ENTER'
+          placeholder='Enter your message'
           autoFocus
       />
-      <button>Send</button>
+      <button class="btn btn-primary" id="button">Send</button>
       </form>
     </div>
   );
